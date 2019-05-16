@@ -1,0 +1,11 @@
+<div *ngIf="dateSubmitted" class="birthday" [birthday]="userBirthday">
+  Birthday Div!
+</div>
+<input type="date" [(ngModel)]="userBirthday">
+<button (click)="submitDate()">Submit Date</button>
+<button (click)="reset()">Reset</button>
+
+
+<div mouseFocus class="box"></div>
+<div mouseFocus class="box"></div>
+<div mouseFocus class="box"></div>
